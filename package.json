@@ -1,0 +1,27 @@
+{
+  "name": "basicauthserver",
+  "version": "1.0.0",
+  "description": "\"Basic Keyauth server\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run start",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArpanParajuli/KeyAuthServer.git"
+  },
+  "author": "\"Arpan Parajuli\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArpanParajuli/KeyAuthServer/issues"
+  },
+  "homepage": "https://github.com/ArpanParajuli/KeyAuthServer#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0"
+  }
+}
